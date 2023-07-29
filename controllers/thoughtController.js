@@ -1,5 +1,5 @@
 const { ObjectId } = require('mongoose').Types;
-const { User, Thought } = require('../models');
+const Thought  = require('../models');
 
 const thoughtCount = async () => {
     const numberOfThoughts = await Thought.aggregate()
