@@ -50,7 +50,7 @@ module.exports = {
     },
     async deleteUser(req, res) {
         try {
-            const user = await User.findOneAndRemove({ _id: req.params.studentId });
+            const user = await User.findOneAndRemove({ _id: req.params.thoughtId });
         } catch (err) {
             console.log(err);
             res.status(500).json(err);
