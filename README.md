@@ -1,6 +1,10 @@
 
 # Social Network API <a name="social network api"></a> [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
+## Walkthrough
+
+https://drive.google.com/file/d/1MYCQU10PxDQK_C9qZW0I2z9l9lVP6IKp/view
+
 ## Description
 
 This is an API for a social network application that allows user to perform CRUD operations on user profiles, user thoughts, user reactions, and friends lists.
