@@ -12,7 +12,6 @@ const {
 
 router.route('/').get(getThoughts).post(createThought);
 
-// /api/courses/:courseId
 router
   .route('/:thoughtId')
   .get(getSingleThought)
